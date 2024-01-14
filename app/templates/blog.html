@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'images/yoga.png' %}">
+    <title>YOGA | BLOG</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+    <style>
+        html {
+            background-image: url('{% static 'images/background.jpg' %}');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+        }
+        .text2 {
+            text-align: left;
+            /*margin: 0 auto; /* Optional: Center the content horizontally */
+            max-width: 800px; /* Optional: Set a maximum width for better readability */
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="{% static 'images/yoga.png' %}" alt="reload">
+        <h1 class="heading">AASAN MADE AASAAN</h1>
+        <a href="{% url 'user_signin' %}"><button><h1>Click to start</h1></button></a>
+        
+    </div>
+    <div class="text2">
+            <h2 class="heading2">
+                <br><br>Yoga is a holistic practice that combines physical postures, breath control, meditation, and ethical principles to promote overall well-being. From a physical perspective, it enhances flexibility, strength, and balance, contributing to improved posture and reduced risk of injury. The mindful breathing and meditation components of yoga are powerful tools for stress reduction, promoting mental relaxation and emotional balance.<h1>
+                </div>
+</body>
+</html>

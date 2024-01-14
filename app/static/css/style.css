@@ -1,0 +1,67 @@
+*{ margin: 0%;padding: 0%;
+    background: url('C:\Users\Dell\Downloads\Asana-AI-main\Asana-AI-main\app\static\images\background.jpeg') no-repeat center center fixed;
+    /* Other background properties */
+    background-size: cover;
+    font-family: calibri ;
+}
+button{
+    background-color:pink;
+    border-radius: 10px;
+    width: 200px;
+}
+
+
+/*header */
+.header{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    /* background-color: black; */
+    color:rgb(23, 1, 1);
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: 1%;
+    border-radius: 100px;
+    background-color: antiquewhite;
+}
+
+
+.heading{
+font-family: cursive ;
+}
+.text2 {
+    margin: 20px;
+}
+
+.heading2 {
+    text-align:justify;
+
+}
+.header a{
+    font-family: monospace;
+    text-decoration: none;
+    color:black;
+    margin: 3%;
+}
+
+.underline{
+    border: 4px solid black;
+    border-radius: 100%;
+    width:70%;
+    position: absolute;
+    top: 17%;
+    left: 15%;
+}
+.subtle{
+    text-align: center;
+    align-items: center;
+    color:rgb(0, 90, 128);
+}
+/* end of header */
+
+/* body */
